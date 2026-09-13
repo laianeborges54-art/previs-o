@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8f4f8;
+    font-family: Arial, sans-serif;
+}
+.card-tempo {
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.card-tempo h2 {
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.cidade {
+    color: #666;
+    font-size: 16px;
+}
+.sol {
+    font-size: 80px;
+    margin: 25px 0;
+}
+.card-tempo h1 {
+    color: #333;
+    font-size: 55px;
+}
+.clima {
+    color: #555;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+}
+.info div {
+    width: 50%;
+    padding: 15px;
+    background: #f1f1f1;
+    border-radius: 15px;
+    color: #555;
+}
+.info p {
+    margin: 5px 0;
+    font-size: 13px;
+}
+.info strong {
+    font-size: 15px;
+}
+.dias {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+.dias div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #555;
+}
+.dias p {
+    font-size: 13px;
+}
+.dias strong {
+    font-size: 15px;
+}
